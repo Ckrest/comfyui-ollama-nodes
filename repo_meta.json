@@ -1,0 +1,7 @@
+{
+  "name": "comfyui-ollama-nodes",
+  "description": "Local LLM integration for ComfyUI via Ollama with full parameter control.",
+  "topics": ["comfyui", "custom-nodes", "ollama", "llm", "ai"],
+  "private": false,
+  "homepage": ""
+}
