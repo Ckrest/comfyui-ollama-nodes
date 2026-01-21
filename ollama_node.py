@@ -152,7 +152,7 @@ class OllamaQuery:
     RETURN_TYPES = ("STRING", "STRING", "INT")
     RETURN_NAMES = ("response", "full_json", "token_count")
     FUNCTION = "query"
-    CATEGORY = "Ollama"
+    CATEGORY = "Local Custom/LLM"
 
     def query(
         self,
@@ -326,7 +326,7 @@ class OllamaChat:
     RETURN_TYPES = ("STRING", "STRING", "STRING")
     RETURN_NAMES = ("response", "updated_messages", "full_json")
     FUNCTION = "chat"
-    CATEGORY = "Ollama"
+    CATEGORY = "Local Custom/LLM"
 
     def chat(
         self,
@@ -435,7 +435,7 @@ class OllamaModelList:
     RETURN_TYPES = ("STRING", "STRING")
     RETURN_NAMES = ("models_list", "models_json")
     FUNCTION = "list_models"
-    CATEGORY = "Ollama"
+    CATEGORY = "Local Custom/LLM"
 
     def list_models(self, ollama_host: str = OLLAMA_HOST, trigger=None):
         """Fetch list of available models from Ollama."""
