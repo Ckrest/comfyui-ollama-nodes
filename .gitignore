@@ -5,3 +5,16 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Published package requirements
+.env
+venv/
+.idea/
+.vscode/
+build/
+dist/
+*.log
+*.db
+*.sqlite3
+*.pkl
+*.pt

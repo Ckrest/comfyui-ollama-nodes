@@ -23,6 +23,7 @@ Local LLM integration for ComfyUI via [Ollama](https://ollama.ai).
 
 - [Ollama](https://ollama.ai) installed and running
 - At least one model pulled (`ollama pull llama3.2`)
+- Python `requests` library: `pip install requests>=2.28`
 
 ## Installation
 

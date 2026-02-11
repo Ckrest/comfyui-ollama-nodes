@@ -1,40 +1,17 @@
-# ComfyUI Ollama Nodes - Local LLM Integration
+# comfyui-ollama-nodes
 name: comfyui-ollama-nodes
-tier: ai
-status: active
-readiness: ready
 description: Local LLM integration for ComfyUI via Ollama with full parameter control
-
-has:
-  - own-git-repo
-
-repository: https://github.com/Ckrest/comfyui-ollama-nodes
-license: MIT
-runtime: python
-
-depends_on:
-  - comfyui
-
-provides:
-  - llm-integration
-  - prompt-generation
-
+state: draft
+traits:
+- comfyui-node
+- published
+- python
+disabled:
+- path-dependencies
 tags:
-  - comfyui
-  - custom-nodes
-  - ollama
-  - llm
-  - text-generation
-  - library
-
-usage: |
-  ComfyUI nodes for Ollama LLM integration.
-
-  Install: Symlink to ComfyUI/custom_nodes/
-
-  Requires: Ollama running locally (default: localhost:11434)
-
-  Features:
-  - Text generation with any Ollama model
-  - Full parameter control (temperature, top_p, etc.)
-  - System prompt support
+- ComfyUI
+- Python
+- AI
+- Ollama
+depends_on:
+- comfyui

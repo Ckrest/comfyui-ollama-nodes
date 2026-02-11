@@ -1,0 +1,6 @@
+# comfyui-ollama-nodes - path-dependencies trait
+
+paths:
+- path: ollama_node.py
+  purpose: Main node implementation
+  type: binary
