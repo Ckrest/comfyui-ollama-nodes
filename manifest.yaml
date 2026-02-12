@@ -1,13 +1,10 @@
-# comfyui-ollama-nodes
 name: comfyui-ollama-nodes
 description: Local LLM integration for ComfyUI via Ollama with full parameter control
-state: draft
+state: ready
 traits:
 - comfyui-node
 - published
 - python
-disabled:
-- path-dependencies
 tags:
 - ComfyUI
 - Python
