@@ -11,6 +11,12 @@ Local LLM integration for ComfyUI via [Ollama](https://ollama.ai).
 - Multi-turn chat support
 - Automatic model list detection
 
+## Screenshots
+
+| Ollama Query | Ollama Model List |
+|:---:|:---:|
+| ![Ollama Query Node](screenshots/ollama-query-node.png) | ![Ollama Model List Node](screenshots/ollama-model-list-node.png) |
+
 ## Nodes
 
 | Node | Purpose |
