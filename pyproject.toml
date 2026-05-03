@@ -1,0 +1,21 @@
+[project]
+name = "comfyui-ollama-nodes"
+version = "0.1.0"
+description = "Local LLM integration for ComfyUI via Ollama with full parameter control"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Ckrest"}]
+license = {file = "LICENSE"}
+dependencies = [
+    "requests>=2.28",
+]
+
+[project.urls]
+Repository = "https://github.com/Ckrest/comfyui-ollama-nodes"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["ollama_node"]
